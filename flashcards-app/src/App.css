@@ -1,0 +1,119 @@
+.app {
+  min-height: 100vh;
+  text-align: center;
+  padding: 40px;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+.app h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.app p {
+  max-width: 800px;
+  margin: 0 auto 15px;
+  font-size: 1.1rem;
+  color: #8b949e;
+  line-height: 1.6;
+}
+
+.app h3 {
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  margin-bottom: 25px;
+  background-color: #21262d;
+  color: #58a6ff;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 1px solid #30363d;
+}
+
+.flashcard {
+  width: 700px;
+  max-width: 90%;
+  height: 300px;
+  margin: 25px auto;
+
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+
+  color: white;
+}
+
+.flashcard:hover {
+  transform: translateY(-5px);
+}
+
+.flashcard h2 {
+  padding: 20px;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.difficulty-tag {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* EASY */
+
+.easy {
+  background-color: #132a13;
+  border: 3px solid #4caf50;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+}
+
+/* MEDIUM */
+
+.medium {
+  background-color: #332701;
+  border: 3px solid #ffb300;
+  box-shadow: 0 0 20px rgba(255, 179, 0, 0.3);
+}
+
+/* HARD */
+
+.hard {
+  background-color: #3b1111;
+  border: 3px solid #ef5350;
+  box-shadow: 0 0 20px rgba(239, 83, 80, 0.3);
+}
+
+button {
+  background-color: #238636;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 14px 28px;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background-color: #2ea043;
+  transform: scale(1.05);
+}
