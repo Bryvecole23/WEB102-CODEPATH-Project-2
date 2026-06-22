@@ -1,68 +1,64 @@
-# Web Development Project 2 - Computer Science Flashcards
+# Web Development Project 3 - Computer Science Flashcards
 
 Submitted by: **Bryce Alexander**
 
-This web app: **A computer science-themed flashcard study application built with React that helps users review foundational computer science concepts commonly found in coursework and technical interviews. Users can click cards to reveal answers and generate a random new card for continued practice. Cards are categorized by difficulty level with unique visual styles for Easy, Medium, and Hard concepts.**
+This web app is a computer science flashcard study tool designed to help users review common computer science concepts used in technical interviews and coursework. Users can test their knowledge by entering guesses, receiving feedback on their answers, and navigating through a set of flashcards in order.
 
-Time spent: **5** hours spent in total
+Time spent: **X** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The app displays the title of the card set, a short description, and the total number of cards**
-  - [x] Title of card set is displayed
-  - [x] A short description of the card set is displayed
-  - [x] A list of card pairs is created
-  - [x] The total number of cards in the set is displayed
-  - [x] Card set is represented as a list of card pairs
+- [x] **The user can enter their guess into an input box before seeing the flipside of the card**
+  - [x] Application features a clearly labeled input box with a submit button where users can type in a guess
+  - [x] Clicking on the submit button with an incorrect answer shows visual feedback that it is wrong
+  - [x] Clicking on the submit button with a correct answer shows visual feedback that it is correct
 
-- [x] **A single card at a time is displayed**
-  - [x] Only one half of the information pair is displayed at a time
-
-- [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-  - [x] Clicking on a card flips it over, showing the back with corresponding information
-  - [x] Clicking on a flipped card again flips it back, showing the front
-
-- [x] **Clicking on the next button displays a random new card**
+- [x] **The user can navigate through an ordered list of cards**
+  - [x] A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  - [x] A previous/back button displayed on the card returns to the previous card in a set sequence when clicked
+  - [x] Both the next and back buttons have visual indication when the user is at the beginning or end of the list and cannot be clicked
 
 ## Optional Features
 
 The following **optional** features are implemented:
 
-- [ ] Cards contain images in addition to or in place of text
-  - [ ] Some or all cards have images in place of or in addition to text
+- [ ] Users can use a shuffle button to randomize the order of the cards
+  - [ ] Cards remain in the same sequence unless the shuffle button is clicked
+  - [ ] Cards change to a random sequence once the shuffle button is clicked
 
-- [x] Cards have different visual styles such as color based on their category
-  - [x] Difficulty categories implemented (Easy, Medium, Hard)
-  - [x] Easy cards use green styling
-  - [x] Medium cards use gold styling
-  - [x] Hard cards use red styling
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+  - [x] Ignores capitalization differences
+  - [x] Ignores punctuation differences
+
+- [x] A counter displays the user's current and longest streak of correct responses
+  - [x] The current counter increments when a user guesses correctly
+  - [x] The current counter resets to 0 when a user guesses incorrectly
+  - [x] A separate counter tracks the longest streak
+
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of displayed cards
 
 ## Additional Features
 
-The following **additional** features are implemented:
-
-* [x] GitHub-inspired dark mode interface designed around a computer science theme
-* [x] Developer-style typography to create a technical interview preparation aesthetic
-* [x] Difficulty badges displayed on each flashcard
-* [x] Random card generation prevents the same card from appearing consecutively
-* [x] Hover animations and visual feedback for improved user experience
-* [x] Computer science interview preparation topic selection tailored toward technical learning
+- [x] Difficulty-based color coding for flashcards
+- [x] Modern dark-themed interface
+- [x] Flashcards categorized by Easy, Medium, and Hard difficulty levels
+- [x] Automatic card reveal after a correct answer submission
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='
+<img src="YOUR_GIF_LINK_HERE" title="Video Walkthrough" width="" alt="Video Walkthrough" />
 
-https://submissions.us-east-1.linodeobjects.com/web102/oIRR8aDB.gif
+<!-- Replace with your GIF link -->
 
-' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF created with Kap.
 
 ## Notes
 
-The biggest challenge was implementing the random card selection logic while ensuring the same card would not immediately repeat. Another challenge was designing a user interface that felt unique and aligned with the computer science theme while still staying within the scope of the project requirements. Creating category-based styling for difficulty levels was also a good exercise in combining React props with dynamic CSS classes.
+One challenge encountered during development was managing multiple state variables for card navigation, answer validation, feedback messages, and streak tracking. Another challenge was ensuring that users could only view the answer after submitting a guess while still maintaining smooth navigation between flashcards.
 
 ## License
 
