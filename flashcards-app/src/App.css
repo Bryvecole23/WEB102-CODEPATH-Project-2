@@ -49,7 +49,6 @@
   justify-content: center;
   align-items: center;
 
-  cursor: pointer;
   transition: all 0.25s ease;
 
   color: white;
@@ -116,4 +115,43 @@ button {
 button:hover {
   background-color: #2ea043;
   transform: scale(1.05);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.guess-section {
+  margin-top: 20px;
+}
+
+.guess-section input {
+  width: 300px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.correct {
+  color: #4caf50 !important;
+  font-weight: bold;
+  margin-top: 15px !important;
+}
+
+.incorrect {
+  color: #ef5350 !important;
+  font-weight: bold;
+  margin-top: 15px !important;
+}
+
+.navigation-buttons {
+  margin-top: 25px;
+}
+
+.navigation-buttons button {
+  margin: 0 10px;
 }
