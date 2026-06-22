@@ -4,7 +4,7 @@ Submitted by: **Bryce Alexander**
 
 This web app is a computer science flashcard study tool designed to help users review common computer science concepts used in technical interviews and coursework. Users can test their knowledge by entering guesses, receiving feedback on their answers, and navigating through a set of flashcards in order.
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
