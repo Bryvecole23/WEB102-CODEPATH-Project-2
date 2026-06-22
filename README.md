@@ -50,7 +50,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="YOUR_GIF_LINK_HERE" title="Video Walkthrough" width="" alt="Video Walkthrough" />
+<img src="https://submissions.us-east-1.linodeobjects.com/web102/NwZx4cKv.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" />
 
 <!-- Replace with your GIF link -->
 
